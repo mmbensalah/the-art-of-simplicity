@@ -17,9 +17,9 @@ ActiveRecord::Schema.define(version: 2019_07_26_203350) do
 
   create_table "appointments", force: :cascade do |t|
     t.string "client_name"
-    t.string "string"
-    t.string "duration"
-    t.string "integer"
+    t.string "client_email"
+    t.string "client_phone"
+    t.integer "duration"
     t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
